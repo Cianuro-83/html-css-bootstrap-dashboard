@@ -1,0 +1,36 @@
+/* **************************
+RESET RULES
+************************** */
+img {
+  max-width: 100%;
+}
+/* **************************
+TEMPLATE
+************************** */
+body {
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.scb-debug {
+  border: 2px solid red;
+}
+.scb-main-header {
+  height: 72px;
+}
+.scb-main-cont {
+  height: calc(100vh - 72px);
+  display: flex;
+}
+
+.scb-aside {
+  min-width: 70px;
+  background-image: url(../img/sidebar-bg.png);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.scb-body-content {
+  flex-grow: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
