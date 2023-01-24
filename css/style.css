@@ -26,6 +26,8 @@ body {
 .scb-aside {
   min-width: 70px;
   background-image: url(../img/sidebar-bg.png);
+  background-color: #051e34;
+
   overflow-y: hidden;
   overflow-x: hidden;
 }
@@ -33,4 +35,8 @@ body {
   flex-grow: 1;
   overflow-y: auto;
   overflow-x: hidden;
+}
+
+.scb-serch {
+  border: none;
 }
