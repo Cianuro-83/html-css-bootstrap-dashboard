@@ -1,8 +1,24 @@
 /* **************************
 RESET RULES
 ************************** */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol,
+li,
+menu {
+  list-style: none;
+}
+
 img {
   max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
 }
 /* **************************
 TEMPLATE
@@ -36,7 +52,39 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
 }
+/* **************************
+HEADER
+************************** */
+.scb-main-header {
+  display: flex;
+  align-items: center;
+}
 
+.scb-logo {
+  width: 68px;
+  margin-right: 20px;
+}
+.scb-search-bar {
+  width: calc(100% - 146px);
+}
+.scb-header-nav {
+  width: 38px;
+  margin-left: 20px;
+  margin-right: 3px;
+}
+
+.scb-serch-cont {
+  width: auto;
+}
 .scb-serch {
   border: none;
+  font-size: 12px;
+}
+.fa-question {
+  background-color: #5a5858;
+  color: white;
+  border-radius: 50%;
+  /* border: 1px solid #5a5858; */
+  padding: 8px;
+  font-size: 10px;
 }

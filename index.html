@@ -24,35 +24,86 @@
     ************************** -->
     <header>
         <div class="scb-debug scb-main-header">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-2">
-                        <nav class="navbar bg-light">
-                            <div class="container-fluid">
-                                <a class="navbar-brand" href="#">
-                                    <img class="d-none d-lg-block" src="./img/logo.svg" alt="boolean">
-                                    <img class="d-lg-none scb-logo-mobile" src="./img/mobile-logo.png" alt="boolean"
-                                        min-width=40px>
-                                </a>
-                            </div>
-                        </nav>
+            <div class="scb-logo scb-debug">
+                <nav class="navbar bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img class="d-none d-lg-block" src="./img/logo.svg" alt="boolean" width="200px">
+                            <img class="d-lg-none scb-logo-mobile" src="./img/mobile-logo.png" alt="boolean"
+                                max-height="30px" width="35px">
+                        </a>
                     </div>
-                    <div class="col-10">
-                        <form class="container-fluid">
-                            <div class="input-group ">
-                                <span class="input-group-text scb-serch" id="basic-addon1"><i
-                                        class="fa-solid fa-magnifying-glass"></i></span>
-                                <input type="text" class="form-control scb-serch"
-                                    placeholder="Prova a cercare Lezioni di Laraver" aria-label="Username"
-                                    aria-describedby="basic-addon1">
+                </nav>
+            </div>
+
+            <div class="scb-search-bar scb-debug">
+                <form class="container-fluid">
+
+                </form>
+
+                <div class="input-group scb-serch-cont">
+                    <span class="input-group-text scb-serch" id="basic-addon1">
+                        <a href="">
+                            <i class="fa-solid fa-magnifying-glass"></i></span>
+                    </a>
+                    <input type="text" class="form-control scb-serch" placeholder="Prova a cercare Lezioni di Laraver"
+                        aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+            </div>
+
+            <div class="scb-header-nav scb-debug">
+                <div class="container-fluid p-0">
+                    <div class="row justify-content-center align-items-center p-0">
+                        <div class="col-3 d-none d-lg-block p-0 m-0">
+                            <div class="dropdown p-0 m-0">
+                                <i class="fa-solid fa-list" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false"></i>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
                             </div>
-
-
+                        </div>
+                        <div class="col-3 d-none d-lg-block p-0 m-0">
+                            <div class="dropdown">
+                                <i class="fa-solid fa-question" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false"></i>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 d-none d-lg-block p-0 m-0">
+                            <div class="dropdown">
+                                <i class="fa-solid fa-ellipsis-vertical " type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false"></i>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                    <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 p-0">
+                            <div class="dropdown">
+                                <i class="fa-solid fa-bell text-warning " type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false"></i>
+                                <ul class="dropdown-menu scb-drop">
+                                    <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                    <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
             </div>
-        </div>
+
+
     </header>
     <!-- **************************
 MAIN
