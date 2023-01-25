@@ -27,6 +27,7 @@ body {
   height: 100vh;
   overflow-y: hidden;
   overflow-x: hidden;
+  background-color: #F8F9FA;
 }
 /* .scb-debug { */
   border: 2px solid red;
@@ -123,7 +124,7 @@ FASCIA BLU
 }
 .scb-babge-2 {
   font-size: 0.7rem;
-}
+} 
 .scb-round {
   background-color: #155bba;
   color: white;
@@ -132,6 +133,15 @@ FASCIA BLU
   font-size: 0.7rem;
 }
 
+/* **************************
+DASHBOARD
+************************** */
+.scb-dashboard{
+  color: black;
+}
+.scb-stats{
+  width: 100%;
+}
 /* **************************
 OFF CANVAS
 ************************** */
