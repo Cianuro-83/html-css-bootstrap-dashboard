@@ -28,7 +28,7 @@ body {
   overflow-y: hidden;
   overflow-x: hidden;
 }
-.scb-debug {
+/* .scb-debug { */
   border: 2px solid red;
 }
 .scb-main-header {
@@ -112,19 +112,24 @@ FASCIA BLU
   font-size: 1.2rem;
 }
 .scb-babge {
-  background-color: #155bba;
-  font-size: 10px;
+  background-color: #2015ba;
+  font-size: 0.7rem;
+  padding: 2px;
+  font-weight: 900;
 }
 .scb-babge:hover {
-  background-color: #1060d0;
+  background-color: #317fed;
   cursor: pointer;
+}
+.scb-babge-2 {
+  font-size: 0.7rem;
 }
 .scb-round {
   background-color: #155bba;
   color: white;
   border-radius: 50%;
   padding: 8px;
-  font-size: 10px;
+  font-size: 0.7rem;
 }
 
 /* **************************
@@ -137,4 +142,7 @@ OFF CANVAS
 
 .offcanvas-end {
   width: 100% !important;
+}
+.scb-btn-save {
+  background-color: rgb(78, 4, 78);
 }
