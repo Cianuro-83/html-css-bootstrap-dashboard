@@ -147,6 +147,9 @@ DASHBOARD: TABELLA
 .fa-trash-can{
   cursor: pointer;
 }
+/* .scb-table-medium{ */
+  display: none;
+}
 
 /* **************************
 DASHBOARD: TODO
