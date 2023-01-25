@@ -29,8 +29,8 @@ body {
   overflow-x: hidden;
   background-color: #F8F9FA;
 }
-/* .scb-debug { */
-  border: 2px solid red;
+.scb-debug {
+  /* border: 2px solid red; */
 }
 .scb-main-header {
   height: 72px;
