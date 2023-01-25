@@ -142,6 +142,11 @@ DASHBOARD
 .scb-stats{
   width: 100%;
 }
+
+[sope="row"]{
+  font-weight: 100 !important;
+}
+
 /* **************************
 OFF CANVAS
 ************************** */
