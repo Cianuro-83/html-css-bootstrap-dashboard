@@ -134,7 +134,7 @@ FASCIA BLU
 }
 
 /* **************************
-DASHBOARD
+DASHBOARD: TABELLA
 ************************** */
 .scb-dashboard{
   color: black;
@@ -143,8 +143,30 @@ DASHBOARD
   width: 100%;
 }
 
-[sope="row"]{
-  font-weight: 100 !important;
+.fa-pencil,
+.fa-trash-can{
+  cursor: pointer;
+}
+
+/* **************************
+DASHBOARD: TODO
+************************** */
+.scb-todos{
+border: 1px solid lightgray;
+padding: 10px;
+border-radius: 10px;
+morgin
+}
+.scb-todo{
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 5px;
+
+}
+/* **************************
+DASHBOARD: STATISTICHE
+************************** */
+.scb-report:hover{
+color: red !important;
 }
 
 /* **************************
