@@ -43,14 +43,17 @@ body {
   min-width: 70px;
   background-image: url(../img/sidebar-bg.png);
   background-color: #051e34;
-
   overflow-y: hidden;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  color: white;
 }
 .scb-body-content {
   flex-grow: 1;
   overflow-y: auto;
   overflow-x: hidden;
+  color: white;
 }
 /* **************************
 HEADER
@@ -79,12 +82,59 @@ HEADER
 .scb-serch {
   border: none;
   font-size: 12px;
+  background-color: #e5e5e5;
 }
 .fa-question {
   background-color: #5a5858;
   color: white;
   border-radius: 50%;
-  /* border: 1px solid #5a5858; */
   padding: 8px;
   font-size: 10px;
+}
+
+/* **************************
+ASIDE
+************************** */
+.scb-aside-menu,
+.scb-admin {
+  width: 90%;
+}
+
+.scb-admin:hover,
+.scb-aside-nav:hover {
+  background-color: grey;
+}
+/* **************************
+FASCIA BLU
+************************** */
+.scb-new-student,
+.scb-online-students {
+  font-size: 1.2rem;
+}
+.scb-babge {
+  background-color: #155bba;
+  font-size: 10px;
+}
+.scb-babge:hover {
+  background-color: #1060d0;
+  cursor: pointer;
+}
+.scb-round {
+  background-color: #155bba;
+  color: white;
+  border-radius: 50%;
+  padding: 8px;
+  font-size: 10px;
+}
+
+/* **************************
+OFF CANVAS
+************************** */
+.fa-square-plus {
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+.offcanvas-end {
+  width: 100% !important;
 }

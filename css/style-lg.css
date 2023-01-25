@@ -19,5 +19,12 @@
     /* margin-right: 3px;  */
   }
 
+  /* **************************
+  OFF CANVAS
+  ************************** */
+  .offcanvas-end {
+    width: 50% !important;
+  }
+
   /* CHIUSURA MEDIA QUERY DESKTOP */
 }
